@@ -18,9 +18,10 @@ while inventory < 501:
                  print("Stock Added")
                  continue
             else:
-                 print("Stock Exceeds 500!")
-                 rejectentries = rejectentries +1
-                 continue
+                print("Stock Exceeds 500!")
+                print ("Total units processed: " + str(inventory))
+                print ("Rejected Entries: " + str(rejectentries))
+                 break
     elif int(userinput) < 0 or int(userinput) == 0:
         print ("Invalid Stock!")
         rejectentries = rejectentries +1
