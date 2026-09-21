@@ -24,7 +24,12 @@ while inventory < 501:
                  print ("Rejected Entries: " + str(rejectentries))
 =======
                  print("Stock Exceeds 500!")
+<<<<<<< Updated upstream
 >>>>>>> ef5b349 (exceed break loop)
+=======
+                 print ("Total units processed: " + str(inventory))
+                 print ("Rejected Entries: " + str(rejectentries))
+>>>>>>> Stashed changes
                  break
     elif int(userinput) < 0 or int(userinput) == 0:
         print ("Invalid Stock!")
