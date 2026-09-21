@@ -18,9 +18,13 @@ while inventory < 501:
                  print("Stock Added")
                  continue
             else:
+<<<<<<< HEAD
                 print("Stock Exceeds 500!")
                  print ("Total units processed: " + str(inventory))
                  print ("Rejected Entries: " + str(rejectentries))
+=======
+                 print("Stock Exceeds 500!")
+>>>>>>> ef5b349 (exceed break loop)
                  break
     elif int(userinput) < 0 or int(userinput) == 0:
         print ("Invalid Stock!")
